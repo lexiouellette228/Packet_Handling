@@ -50,3 +50,6 @@ python client.py --version 1 --header_length 5 --service_type 3 --payload "Hello
 ## Author
 - Lexi Ouellette 
 - Project: Computer Networks Programming Assignment – Packet Handling
+
+## Context
+- This is for educational use only. 
