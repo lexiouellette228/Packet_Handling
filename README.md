@@ -34,12 +34,13 @@ python server.py
 
 ### 2. Send to the Client
 python client.py --version 1 --header_length 5 --service_type 3 --payload "Hello Server!" --host 10.128.0.2 --port 12345
- --version: Packet version
- --header_length: Length of the header
- --service_type: Type of data (1 = int, 2 = float, 3 = string)
- --payload: Data to send
- --host: Server IP (default: localhost)
- --port: Server port (default: 12345)
+
+ - version: Packet version
+ - header_length: Length of the header
+ - service_type: Type of data (1 = int, 2 = float, 3 = string)
+ - payload: Data to send
+ - host: Server IP (default: localhost)
+ - port: Server port (default: 12345)
 
 ### Notes
 - struct module is used to encode/decode header and payload using format !BBBH.
